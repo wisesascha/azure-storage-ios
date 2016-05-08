@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AZSClient"
-  s.version      = "0.2.2"
+  s.version      = "0.2.3"
   s.summary      = "Azure Storage Client Library for iOS & OSX."
   s.description  = <<-DESC "This library is designed to help you build iOS applications that use Microsoft Azure Storage."
                    DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = "Microsoft Azure Storage"
   s.ios.deployment_target = "7.0"
   s.osx.deployment_target = "10.10"
-  s.source       = { :git => "https://github.com/wisesascha/azure-storage-ios.git", :tag => "v0.2.2" }
+  s.source       = { :git => "https://github.com/wisesascha/azure-storage-ios.git", :tag => "v0.2.3" }
   s.source_files  = "Lib/Azure Storage Client Library/Azure Storage Client Library/*.{h,m}"
   s.ios.library   = 'xml2.2'
 #  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
