@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Azure/azure-storage-ios"
   s.license      = "MIT"
   s.author       = "Microsoft Azure Storage"
-  s.platform     = :ios, "7.0"
+  s.ios.deployment_target = "7.0"
+  s.ios.deployment_target = "10.10"
   s.source       = { :git => "https://github.com/Azure/azure-storage-ios.git", :tag => "v0.2.0" }
   s.source_files  = "Lib/Azure Storage Client Library/Azure Storage Client Library/*.{h,m}"
   s.ios.library   = 'xml2.2'
