@@ -146,7 +146,7 @@
 			containerPortal = BE4510381A9D252300C3F971 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = BE45103F1A9D252300C3F971;
-			remoteInfo = "AZSClient";
+			remoteInfo = AZSClient;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -597,7 +597,7 @@
 			dependencies = (
 			);
 			name = AZSClient;
-			productName = "AZSClient";
+			productName = AZSClient;
 			productReference = BE4510401A9D252300C3F971 /* libAZSClient.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -615,7 +615,7 @@
 				BE4510571A9D252300C3F971 /* PBXTargetDependency */,
 			);
 			name = AZSClientTests;
-			productName = "AZSClientTests";
+			productName = AZSClientTests;
 			productReference = BE4510501A9D252300C3F971 /* AZSClient.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -852,7 +852,7 @@
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = macosx10.11;
 			};
 			name = Debug;
 		};
@@ -886,7 +886,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				SDKROOT = iphoneos;
+				SDKROOT = macosx10.11;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
