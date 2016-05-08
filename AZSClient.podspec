@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = "Microsoft Azure Storage"
   s.ios.deployment_target = "7.0"
   s.ios.deployment_target = "10.10"
-  s.source       = { :git => "https://github.com/Azure/azure-storage-ios.git", :tag => "v0.2.0" }
+  s.source       = { :git => "https://github.com/wisesascha/azure-storage-ios.git", :tag => "v0.2.1" }
   s.source_files  = "Lib/Azure Storage Client Library/Azure Storage Client Library/*.{h,m}"
   s.ios.library   = 'xml2.2'
 #  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
